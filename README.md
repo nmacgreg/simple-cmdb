@@ -1,6 +1,6 @@
 # simple-cmdb
 
-A CMDB in zero time, based on [FastAPI]()
+A CMDB in zero time, based on [FastAPI](https://fastapi.tiangolo.com/)
 
 ## Make use of the venv
 

@@ -21,6 +21,10 @@ def read_root():
 def read_item(item_id: int, q: Optional[str] = None):
     return {"item_id": item_id, "q": q}
 
+@app.get("/description/{hostname}")
+def read_item(hostname: str, q: Optional[str] = None):
+    return {"hostname": hostname, "q": q}
+
 
 @app.put("/items/{item_id}")
 def update_item(item_id: int, item: Item):
